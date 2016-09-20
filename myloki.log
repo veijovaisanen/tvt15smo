@@ -1,0 +1,500 @@
+   16  git commit -m 'Comment2 to B2' 
+   17  git branch master
+   18  git checkout master
+   19  git add myfile.txt
+   20  git commit -m 'Added 2. line' 
+   21  git merge b2 master
+   22  git merge b2 master
+   23  git add myfile.txt
+   24  git commit -m 'Conflict' 
+   25  git merge b2 master
+   26  ls
+   27  git branch
+   28  git branch -d b2
+   29  git checkout master
+   30  exit
+   31  cd swp2
+   32  git remote add swp2 git://github.com/veijovaisanen/swp2.git
+   33  git push origin master
+   34  git remote add swp2 https://github.com/veijovaisanen/swp2.git
+   35  git remote remove swp2 https://github.com/veijovaisanen/swp2.git
+   36  git remote remove swp2
+   37  git remote add swp2 https://github.com/veijovaisanen/swp2.git
+   38  git push origin master
+   39  git push swp2 master
+   40  exit
+   41  ls
+   42  cd 
+   43  ls
+   44  cd .ssh
+   45  ls
+   46  ssh-keygen -t rsa -C veijo.vaisanen@oamk.fi
+   47  keygen -t rsa -C veijo.vaisanen@oamk.fi
+   48  ssh-keygen -t rsa -C veijo.vaisanen@oamk.fi
+   49  clip <id_rsa1.pub
+   50  git clone git://github.com/veijovaisanen/SWP4.git 
+   51  git clone http://github.com/veijovaisanen/SWP3.git 
+   52  git clone http://github.com/veijovaisanen/SWP4.git 
+   53  ls
+   54  cd SWP4
+   55  ls
+   56  vi file.txt
+   57  ls
+   58  git add file.txt
+   59  git commit -m 'new' file.txt
+   60  git push https://github.com/veijovaisanen/SWP4.git
+   61  git push https://github.com/veijovaisanen/SWP3.git
+   62  cd ..
+   63  ls
+   64  keygen -t rsa -C veijo.vaisanen@oamk.fi
+   65  ssh-keygen -t rsa -C veijo.vaisanen@oamk.fi
+   66  clip <id_rsa2.pub
+   67  ls
+   68  git clone http://github.com/veijovaisanen/SWP3.git 
+   69  ls
+   70  cd SWP3
+   71  ls
+   72  cat myfile.txt 
+   73  git push https://github.com/veijovaisanen/SWP3.git
+   74  ls
+   75  vi myfile.txt 
+   76  ls
+   77  git add myfile.txt
+   78  git commit -m 'Line7 added' myfile.txt
+   79  git push https://github.com/veijovaisanen/SWP3.git
+   80  exit
+   81  ls
+   82  ls *.
+   83  ls.*
+   84  ls
+   85  ls .*
+   86  cd .ssh
+   87  ls
+   88  ssh -keygen- t -rsa -C veijo.vaisanen@oamk.fi
+   89  ssh -keygen -t -rsa -C veijo.vaisanen@oamk.fi
+   90  ssh-keygen -t -rsa -C veijo.vaisanen@oamk.fi
+   91  ssh-keygen -t rsa -C veijo.vaisanen@oamk.fi
+   92  ls -l id_rsah
+   93  clip <id_rsah.pub
+   94  git clone git://github.com/veijovaisanen/labs4.git
+   95  ls
+   96  cd..
+   97  pwd
+   98  lsa
+   99  ls
+  100  cd ..
+  101  ls
+  102  git clone git://github.com/veijovaisanen/labs4.git
+  103  ls
+  104  cd labs4
+  105  ls
+  106  git add file1.txt
+  107  git status
+  108  git diff --staged
+  109  git commit file1.txt -m 'Add new file'
+  110  git push https://github.com/veijovaisanen/labs4.git master
+  111  git branch b1
+  112  git branch 
+  113  git checkout master
+  114  git add file1.txt
+  115  git commit file1.txt -m 'Added X in eof Line2'
+  116  git checkout b1
+  117  git add file1.txt
+  118  git commit file1.txt -m 'Added Y in eof Line5'
+  119  git checkout master
+  120  git merge master b1
+  121  git checkout master
+  122  git branch -d b1
+  123  git branch b2
+  124  git checkout master
+  125  git add file1.txt
+  126  git commit file1.txt -m 'Added Z in eof Line1'
+  127  git checkout b2
+  128  git add file1.txt
+  129  git commit file1.txt -m 'Added W in eof Line1'
+  130  git checkout master
+  131  git merge master b2
+  132  git add file1.txt
+  133  git commit file1.txt -i -m 'Conflict corrected: Added Z in eof Line1'
+  134  git checkout master
+  135  git branch -d b2
+  136  git branch 
+  137  ls
+  138  git add shortcat.txt
+  139  git commit shortcat.txt -m 'Added'
+  140  git push https://github.com/veijovaisanen/labs4.git master
+  141  ls
+  142  git branch
+  143  exit
+  144  ls
+  145  ls
+  146  ls .*
+  147  cd .ssh
+  148  ls
+  149  pwd
+  150  ssh-keygen -t rsa -C veijo.vaisanen@oamk.fi
+  151  ls -l 
+  152  ls *.pub
+  153  clip <id_rsad.pub
+  154  cd
+  155  git clone git://github.com/veijovaisanen/dpi2sn.git
+  156  cd dpi2sn
+  157  git config --global user.name "veijo Väisänen"
+  158  git config --global user.email veijo.vaisanen@oamk.fi
+  159  git add myfile.txt
+  160  git status
+  161  git diff --staged
+  162  git commit -m 'A new file added' myfile.txt
+  163  git push https://github.com/veijovaisanen/dpi2sn.git master
+  164  ls
+  165  git branch
+  166  git branch b1
+  167  git branch
+  168  git checkout master
+  169  git branch
+  170  git add myfile.txt
+  171  git diff --staged
+  172  git status
+  173  git commit -m "Added X in eof Line2" myfile.txt
+  174  git checkout b1
+  175  git branch
+  176  git add myfile.txt
+  177  git commit -m "Added Y in eof Line5" myfile.txt
+  178  git checkout master
+  179  git merge master b1
+  180  git checkout master
+  181  git branch -d b1
+  182  git branch
+  183  git branch b2
+  184  git checkout master
+  185  git add myfile.txt
+  186  git commit -m 'Added A in eof Line1' myfile.txt
+  187  git branch
+  188  git checkout b2
+  189  git add myfile.txt
+  190  git commit -m 'Added B in eof Line1' myfile.txt
+  191  git checkout master
+  192  git merge master b2
+  193  git add myfile.txt
+  194  git commit -i -m 'Conflict solved: B remains in eof Line1' myfile.txt
+  195  git branch
+  196  git branch -d b2
+  197  git checkout master
+  198  git branch
+  199  git checkout master
+  200  git checkout master
+  201  git add myfile1.txt
+  202  ls
+  203  git add myfile 1.txt
+  204  git add myfile1.txt
+  205  git status
+  206  git diff --staged
+  207  git commit -m 'Added new file' myfile1.txt
+  208  git branch b1
+  209  git branch 
+  210  git checkout master
+  211  git add myfile1.txt
+  212  git commit -m 'Added X in EOF Line2' myfile1.txt
+  213  git checkout b1
+  214  git checkout 
+  215  git checkout b1
+  216  git branch
+  217  git add myfile1.txt
+  218  git commit -m 'Added Y in EOF Line5' myfile1.txt
+  219  git checkout master
+  220  git merge master b1
+  221  git branch -d b1
+  222  git branch 
+  223  git checkout master
+  224  git branch b2
+  225  git branch 
+  226  git checkout master
+  227  git add myfile1.txt
+  228  git commit -m 'Added A in EOF Line1' myfile1.txt
+  229  git checkout b2
+  230  git add myfile1.txt
+  231  git commit -m 'Added B in EOF Line1' myfile1.txt
+  232  git checkout master
+  233  git merge master b2
+  234  git add myfile1.txt
+  235  git commit -m 'Added B in EOF Line1(Conflict resolved)' myfile1.txt
+  236  git commit -m -i 'Added B in EOF Line1(Conflict resolved)' myfile1.txt
+  237  git commit -i -m 'Added B in EOF Line1(Conflict resolved)' myfile1.txt
+  238  git branch -d b2
+  239  git checkout master
+  240  git log
+  241  uit
+  242  git checkout --stage fc19e9f
+  243  git checkout-index --stage fc19e9f
+  244  git checkout-index --stage 1
+  245  git log
+  246  git show fc19e9f
+  247  git log
+  248  git reflog
+  249  exit
+  250  ssh-keygen -t rsa -b 4096
+  251  ssh-agent -s
+  252  ssh-add ~/.ssh/id_rsa
+  253  $ eval $(ssh-agent -s)
+  254  ssh-add ~/.ssh/id_rsa
+  255  ps
+  256  ssh-keygen -t rsa -b 4096
+  257  ssh-keygen -t rsa -b 4096
+  258  ssh-keygen -t rsa -b 4096
+  259  ssh-agent -s
+  260  ssh-add ~/.ssh/id_rsa
+  261  ssh-add /C/Users/vvaisan/.ssh/id_rsa
+  262  dir
+  263  eval `ssh-agent -s`
+  264  ssh-add ~/.ssh/id_rsa
+  265  clip < ~/.ssh/id_rsa.pub
+  266  cd /c/Users/vvaisan/node-todo/node-todo
+  267  dir
+  268  git init
+  269  git add .
+  270  git commit -m "First commit"
+  271  git remote add origin git@github.com:veijovaisanen/march14.git
+  272  git push origin master
+  273  ps
+  274  kill 4472
+  275  kill 5232
+  276  kill 3848
+  277  kill 4920
+  278  ps
+  279  ssh-add ~/.ssh/id_rsa
+  280  eval `ssh-agent -s`
+  281  git push origin master
+  282  ps
+  283  kill 4984
+  284  ssh-keygen -t rsa -b 4096
+  285  ssh-agent -s
+  286  ssh-add ~/.ssh/id_rsa
+  287  cd 
+  288  ssh-add ~/.ssh/id_rsa
+  289  eval 'ssh-agent -s'
+  290  ssh-add ~/.ssh/id_rsa
+  291  ssh-keygen -t rsa -b 4096
+  292  ssh-add ~/.ssh/id_rsa
+  293  eval 'ssh-agent -s'
+  294  ssh-add ~/.ssh/id_rsa
+  295  ps
+  296  kill 6664
+  297  kill 7956
+  298  kill 7080
+  299  ps
+  300  ssh-keygen -t rsa -b 4096
+  301  ssh-agent -s
+  302  ssh-add ~/.ssh/id_rsa
+  303  ps
+  304  ssh-add ~/.ssh/id_rsa
+  305  cd ~/.ssh
+  306  dir
+  307  ssh-keygen -t rsa -b 4096
+  308  ssh-agent -s
+  309  ssh-add ~/.ssh/id_rsa
+  310  eval 'ssh-agent -s'
+  311  ssh-add ~/.ssh/id_rsa
+  312  ssh-add ~/.ssh/id_rsa
+  313  eval 'ssh-agent -s'
+  314  ssh-add
+  315  eval $(ssh-agent)
+  316  ssh-add ~/.ssh/id_rsa
+  317  clip < ~/.ssh/id_rsa.pub
+  318  cd /c/Users/vvaisan/node-todo/node-todo
+  319  git remote add origin git@github.com:veijovaisanen/march14.git
+  320  git push origin master
+  321  ssh-keygen -t rsa -b 4096
+  322  ssh-agent -s
+  323  ssh-add ~/.ssh/id_rsa
+  324  eval $(ssh-agent)
+  325  ssh-add ~/.ssh/id_rsa
+  326  clip < ~/.ssh/id_rsa.pub
+  327  clip < ~/.ssh/id_rsa.pub
+  328  mkdir test
+  329  cd test
+  330  git init
+  331  git ad´d .
+  332  git add .
+  333  git commit -m "asdasd"
+  334  hello > test.txt
+  335  git add .
+  336  git commit -m "asdasd"
+  337  git remote add origin https://github.com/veijovaisanen/march14.git
+  338  git push origin master
+  339  git push origin master
+  340  ssh-keygen -t rsa -b 4096
+  341  ssh-agent -s
+  342  ssh-add ~/.ssh/id_rsa
+  343  eval $(ssh-agent)
+  344  ssh-add ~/.ssh/id_rsa
+  345  clip < ~/.ssh/id_rsa.pub
+  346  dir
+  347  dir
+  348  ssh-keygen -t rsa -b 4096
+  349  $ eval $(ssh-agent -s)
+  350  eval $(ssh-agent -s)
+  351  ssh-add ~/.ssh/id_rsa
+  352  clip < ~/.ssh/id_rsa.pub
+  353  mkdir lab41
+  354  cd lab41/
+  355  dir
+  356  git init
+  357  git remote add origin https://github.com/veijovaisanen/Lab41.git
+  358  git pull origin master
+  359  dir
+  360  git add .
+  361  git commit -m "Added another belt"
+  362  git push origin master
+  363  cd /c/Users/vvaisan/repo2
+  364  git init
+  365  git remote add origin https://github.com/veijovaisanen/syyskuu.git
+  366  git pull b1
+  367  git pull origin b1
+  368  git branch
+  369  git branch b1
+  370  git branch
+  371  git branch -d b1
+  372  git branch
+  373  git add .
+  374  git commit -m "Lisätty uusi rivi"
+  375  git push origin b1
+  376  git push origin master
+  377  git branch b1
+  378  git checkout b1
+  379  git branch
+  380  git add .
+  381  git commit -m "Lisätty uusi rivi"
+  382  git add .
+  383  git commit -m "Lisätty uusi rivi"
+  384  git push origin b1
+  385  ssh-keygen -t rsa -b 4096
+  386  ssh-agent -s
+  387  ssh-add ~/.ssh/id_rsa
+  388  eval `ssh-agent -s`
+  389  ssh-add ~/.ssh/id_rsa
+  390  clip < ~/.ssh/id_rsa.pub
+  391  cd /c/Users/vvaisan/repo
+  392  git init
+  393  ls
+  394  git add .
+  395  git commit -m "File created"
+  396  git remote add origin https://github.com/veijovaisanen/syyskuu.git
+  397  git remote -v
+  398  git push origin master
+  399  git log
+  400  git branch
+  401  git remote show origin
+  402  git add .
+  403  git commit -m "uusi rivi"
+  404  git show history
+  405  show history
+  406  git show
+  407  git push origin master
+  408  git checkout c9694b1f4d1665e5261688628284e2e671594340
+  409  git checkout master
+  410  git branch b1
+  411  git branch 
+  412  git add .
+  413  git commit -m "Added master muutos eof line 2"
+  414  git checkout b1
+  415  git branch
+  416  git add .
+  417  git commit -m "Added branch muutos in eof line 3"
+  418  git checkout master
+  419  git branch
+  420  git merge b1 -m "merge"
+  421  git  add .
+  422  git commit -m "Conflict resolved"
+  423  git branch
+  424  git branch -d b1
+  425  git branch
+  426  git add .
+  427  git branch b1
+  428  git add .
+  429  git commit -m "master eof line 2"
+  430  git checkout b1
+  431  git add .
+  432  git commit -m "branch eof line 3"
+  433  git checkout master
+  434  git branch
+  435  git merge b1 -m "merge"
+  436  git add .
+  437  git commit -m "conflict resolved"
+  438  git branch -d b1
+  439  git branch
+  440  git branch b1
+  441  git branch 
+  442  git add .
+  443  git commit -m "muutettu"
+  444  git checkout b1
+  445  git branch
+  446  git add .
+  447  git commit -m "muutettu b1"
+  448  git branch master
+  449  git checkout master
+  450  git merge b1 -m "merge"
+  451  git add .
+  452  git commit -m "OK"
+  453  git branch -d b1
+  454  git branch
+  455  git branch b1
+  456  git checkout b1
+  457  git branch
+  458  git checkout master
+  459  git branc
+  460  git branch
+  461  git add .
+  462  git commit -m "Added line 4"
+  463  git checkout b1
+  464  git add .
+  465  git commit -m "Added line 0"
+  466  git checkout master
+  467  git merge b1 -m "merge"
+  468  git branch -d b1
+  469  git branch b2
+  470  git branch
+  471  git add .
+  472  git commit -m "Added master in eof line 1"
+  473  git checkout b2
+  474  git add .
+  475  git commit -m "Added branch in eof line 1"
+  476  git checkout master
+  477  git merge b2 -m "merge"
+  478  git add .
+  479  git commit -m "Conflict solved"
+  480  git branch -d b2
+  481  git branch
+  482  git push origin master
+  483  git branch b1
+  484  git checkout b1
+  485  git add .
+  486  git commit -m "Added a line"
+  487  git push origin b1
+  488  git branch -d b1
+  489  git branch master
+  490  git push origin b1
+  491  cat myfile.txt 
+  492  git branch
+  493  git checkout master
+  494  git branch
+  495  cat myfile.txt 
+  496  git pull origin master
+  497  cat myfile.txt 
+  498  git branch
+  499  history
+  500  ssh-keygen -t rsa -b 4096
+  501  eval "$(ssh-agent -s)"
+  502  ssh-add ~/.ssh/id_rsa
+  503  clip < ~/.ssh/id_rsa.pub
+  504  cd /c/Users/vvaisan/myrepo
+  505  ls
+  506  git init
+  507  git branch
+  508  git add .
+  509  git commit -m "New file added"
+  510  git log
+  511  git remote add origin https://github.com/veijovaisanen/tvt15smo.git
+  512  git remote -v
+  513  git push origin master
+  514  history
+  515  history >myloki.log
